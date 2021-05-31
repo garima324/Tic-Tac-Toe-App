@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="UI.Home_Activity">
+
+    <TextView
+        android:id="@+id/PlayerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="Player One"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/PlayerOneScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25sp"
+        android:layout_below="@id/PlayerOne"
+        android:layout_marginLeft="70dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/PlayerTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="200dp"
+        android:text="Player Two"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"></TextView>
+
+    <TextView
+        android:id="@+id/PlayerTwoScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25sp"
+        android:layout_below="@id/PlayerTwo"
+        android:layout_marginLeft="250dp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/PlayerStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_below="@id/PlayerTwoScore"
+        android:gravity="center_horizontal"></TextView>
+
+    <Button
+        android:id="@+id/btn_0"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/PlayerStatus"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/PlayerStatus"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/PlayerStatus"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/btn_0"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/btn_1"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/btn_2"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/btn_3"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/btn_4"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/btn_8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:backgroundTint="#413F43"
+        android:textColor="#ffff"
+        android:layout_below="@id/btn_5"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="15dp"
+        ></Button>
+    
+    <Button
+        android:id="@+id/ResetGame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#ffff"
+        android:text="Reset Game"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@id/btn_6"
+        android:backgroundTint="#FF0000"></Button>
+
+</RelativeLayout>
